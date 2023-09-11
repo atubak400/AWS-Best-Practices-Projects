@@ -1,9 +1,7 @@
 # AWS-Best-Practices-Projects
 Welcome to the AWS Best Practices Hands-On Labs repository! This repository serves as a comprehensive collection of hands-on labs and practical exercises designed to showcase AWS best practices. 
 
-# AWS Best Practices
-
-Welcome to the AWS Best Practices Hands-On Labs repository! This collection of practical exercises and demonstrations serves as a comprehensive showcase of best practices for AWS (Amazon Web Services). Whether you're an aspiring cloud engineer, a seasoned AWS professional, or a prospective employer or client looking for real-world AWS expertise, this repository is your go-to resource.
+Whether you're an aspiring cloud engineer, a seasoned AWS professional, or a prospective employer or client looking for real-world AWS expertise, this repository is your go-to resource.
 
 ## Labs Included
 

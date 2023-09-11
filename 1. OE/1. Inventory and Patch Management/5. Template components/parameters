@@ -1,0 +1,65 @@
+{
+    "Parameters": {
+        "WorkloadName": {
+            "Description": "The Name tag you wish to apply to the workload 
+that will be created",
+            "Type": "String",
+            "MinLength": "1",
+            "MaxLength": "256"
+        },
+        "InstanceProfile": {
+            "Description": "Instance profile to assign to instances (not 
+required).",
+            "Type": "String"
+        },
+        "InstanceTypeWeb": {
+            "Description": "WebServer EC2 instance type",
+            "Type": "String",
+            "Default": "t2.micro",
+            "AllowedValues": [
+                "t1.micro",
+                "t2.nano",
+                "t2.micro",
+                "t2.small",
+                "t2.large",
+                "m1.small"
+            ],
+            "ConstraintDescription": "must be a valid EC2 instance type."
+        },
+        "InstanceTypeApp": {
+            "Description": "AppServer EC2 instance type",
+            "Type": "String",
+            "Default": "t2.micro",
+            "AllowedValues": [
+                "t1.micro",
+                "t2.nano",
+                "t2.micro",
+                "t2.small",
+                "t2.medium",
+                "t2.large",
+                "m1.small",
+                "m1.medium"
+            ],
+            "ConstraintDescription": "must be a valid EC2 instance type."
+        },
+        "KeyName": {
+            "Description": "Name of an existing EC2 KeyPair to enable SSH 
+access to the instance",
+            "Type": "AWS::EC2::KeyPair::KeyName",
+            "ConstraintDescription": "must be the name of an existing EC2 
+KeyPair."
+        },
+        "SourceLocation": {
+            "Description": "The CIDR IP address range that can be used to 
+SSH to the EC2 instances and access the servers via http",
+            "Type": "String",
+            "MinLength": "9",
+            "MaxLength": "18",
+            "Default": "0.0.0.0/0",
+            "AllowedPattern": 
+"(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})/(\\d{1,2})",
+            "ConstraintDescription": "must be a valid IP CIDR range of the 
+form x.x.x.x/x."
+        }
+    }
+}

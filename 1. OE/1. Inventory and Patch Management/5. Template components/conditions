@@ -1,0 +1,16 @@
+{
+    "Conditions": {
+        "DefInstanceProfile": {
+            "Fn::Not": [
+                {
+                    "Fn::Equals": [
+                        {
+                            "Ref": "InstanceProfile"
+                        },
+                        ""
+                    ]
+                }
+            ]
+        }
+    }
+}

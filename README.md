@@ -5,24 +5,19 @@ Whether you're an aspiring cloud engineer, a seasoned AWS professional, or a pro
 
 ## Labs Included
 
-1. [Lab 1: AWS Identity and Access Management (IAM) Best Practices](labs/lab1-iam-best-practices/README.md)
-2. [Lab 2: Amazon S3 Data Management and Security](labs/lab2-s3-data-management/README.md)
-3. [Lab 3: Elastic Load Balancing (ELB) Optimization](labs/lab3-elb-optimization/README.md)
-4. [Lab 4: AWS Lambda Performance and Error Handling](labs/lab4-lambda-best-practices/README.md)
-5. [Lab 5: Amazon RDS High Availability and Backup Strategies](labs/lab5-rds-ha-backup/README.md)
+### Operational Excellence
+1. [Lab 1: Cloudformation Infrastructure Deployment](labs/lab1-iam-best-practices/README.md)
+2. [Lab 2: SSM Inventory Management](labs/lab2-s3-data-management/README.md)
+3. [Lab 3: SSM Patch Management](labs/lab2-s3-data-management/README.md)
+4. [Lab 4: SSM Maintenance Windows](labs/lab2-s3-data-management/README.md)
+5. [Lab 5: Creating SNS topic](labs/lab2-s3-data-management/README.md)
+
+### Security
 
 ## How to Use
 
-Each lab is self-contained within its directory. Navigate to the lab you're interested in, and follow the provided instructions. You can also watch the accompanying explanatory videos for a more in-depth understanding.
-
-## Contributions
-
-If you'd like to contribute additional labs or improvements to existing content, please follow our [contributing guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Use the link to navigate to the lab you're interested in. Watch the accompanying explanatory videos for a more in-depth understanding.
 
 ## Get Started
 
-Explore the labs and enhance your AWS skills while learning best practices! If you have any questions or feedback, feel free to [open an issue](https://github.com/yourusername/aws-best-practices-labs/issues) or [reach out to me](atubak40@gmail.com).
+Explore the labs and enhance your AWS skills while learning best practices! If you have any questions or feedback, feel free to [reach out to me](atubak40@gmail.com).

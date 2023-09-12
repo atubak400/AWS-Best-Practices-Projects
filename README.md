@@ -6,11 +6,11 @@ Whether you're an aspiring cloud engineer, a seasoned AWS professional, or a pro
 ## Labs Included
 
 ### Operational Excellence
-1. [Lab 1: Cloudformation Infrastructure Deployment](labs/lab1-iam-best-practices/README.md)
-2. [Lab 2: SSM Inventory Management](labs/lab2-s3-data-management/README.md)
-3. [Lab 3: SSM Patch Management](labs/lab2-s3-data-management/README.md)
-4. [Lab 4: SSM Maintenance Windows](labs/lab2-s3-data-management/README.md)
-5. [Lab 5: Creating SNS topic](labs/lab2-s3-data-management/README.md)
+1. [Lab 1: Cloudformation Infrastructure Deployment](https://github.com/atubak400/AWS-Best-Practices-Projects/blob/main/1.%20OE/1.%20documentation.md#cloudformation)
+2. [Lab 2: SSM Inventory Management](https://github.com/atubak400/AWS-Best-Practices-Projects/blob/main/1.%20OE/1.%20documentation.md#systems-manager)
+3. [Lab 3: SSM Patch Management](https://github.com/atubak400/AWS-Best-Practices-Projects/blob/main/1.%20OE/1.%20documentation.md#patch-manager)
+4. [Lab 4: SSM Maintenance Windows](https://github.com/atubak400/AWS-Best-Practices-Projects/blob/main/1.%20OE/1.%20documentation.md#maintenance-windows)
+5. [Lab 5: Creating SNS topic](https://github.com/atubak400/AWS-Best-Practices-Projects/blob/main/1.%20OE/1.%20documentation.md#simple-notification-service)
 
 ### Security
 
